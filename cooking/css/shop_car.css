@@ -1,0 +1,192 @@
+body {
+	color: #333;
+	font-size: 14px;
+}
+
+.footer {
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	background: #fff;
+	border-top: #E4E4E4;
+}
+
+.foot_left {
+	/*padding: 15px;*/
+	overflow: hidden;
+	float: left;
+}
+
+.foot_right {
+	padding: 0 28px;
+	background: #FF5242;
+	color: #fff;
+	float: right;
+}
+
+.foot_left div {
+	float: left;
+}
+
+.num,
+.total {
+	font-size: 12px;
+	color: #9D9D9D;
+}
+
+.num {
+	margin: 0 10px;
+}
+
+.head {
+	background: #fff;
+}
+
+.head_top {
+	padding: 5px 10px;
+	overflow: hidden;
+}
+
+.head_top div:nth-child(1) {
+	float: left;
+}
+
+.head_top div:nth-child(2) {
+	float: right;
+}
+
+.head_top div:nth-child(2) img {
+	top: 9px;
+	right: 10px;
+	position: absolute;
+	/* margin-left: 10px; */
+	width: 8px;
+}
+.foods_right div{
+	font-size: 16px;
+}
+.change span {
+	padding-right: 15px;
+	color: #FF5747;
+}
+
+.head_foot {
+	padding: 5px 10px;
+}
+
+.eat_in {
+	font-size: 14px;
+	padding-left: 10px;
+	border-left: 4px solid #FF5242;
+}
+
+.always_eat {
+	border-bottom: 1px solid #F0F0F0;
+	background: #fff;
+	padding: 10px 0 10px 20px;
+}
+
+.special {
+	margin-top: 10px;
+}
+
+.foods {
+	padding: 10px 0 10px 10px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.foods_left img {
+	width: 80%;
+}
+
+.foods_left {
+	width: 20%;
+	float: left;
+}
+.foods_left p{
+	color: #C2C2C2;
+	font-size: 12px;
+}
+.foods_right {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E9E9E9;
+	width: 80%;
+	float: right;
+}
+
+.foods_right p {
+	color: #C2C2C2;
+	    margin-top: 3px;
+    margin-bottom: 3px;
+	font-size: 10px;
+}
+
+.mui-content {
+	margin-bottom: 50px;
+}
+
+
+/*numbox*/
+
+.numberbox {
+	margin-right: 10px;
+	float: right;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.numberbox p {
+	float: left;
+}
+
+.numberbox p:nth-child(1) {
+	height: 20px;
+	width: 25px;
+	background: url(../imgs/jian.png);
+	background-size: cover;
+}
+
+.numberbox p:nth-child(2) {
+	padding: 0 10px;
+}
+
+.numberbox p:nth-child(3) {
+	height: 20px;
+	width: 25px;
+	background: url(../imgs/plus.png);
+	background-size: cover;
+}
+
+.other {
+	margin-top: 10px;
+	background: #fff;
+}
+
+
+/*轮播css*/
+
+.imgs {
+	height: 100px;
+	float: left;
+	width: 20%;
+	margin-left: 4%;
+	margin-bottom: 30px;
+}
+
+.imgs {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.imgs span {
+	white-space: nowrap;
+}
+
+.mui-slider-item {
+	white-space: nowrap;
+}

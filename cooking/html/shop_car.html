@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/shop_car.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="head">
+				<div class="head_top">
+					<div>用餐人数：<span id="people_num">4</span>人</div>
+					<div class="change" id="./change.html" onclick="clicked(this.id)"><span>修改</span><img src="../imgs/to.png" alt="" /></div>
+				</div>
+				<div class="head_foot">备注信息：无</div>
+			</div>
+			<div class="special">
+				<div class="always_eat">
+					<span class="eat_in">
+						本店特色
+					</span>
+				</div>
+				<div class="foods mui-text-center">
+					<div class="foods_left">
+						<img src="../imgs/foods_01.png" alt="" />
+						<p class="">顾客A</p>
+					</div>
+					<div class="foods_right mui-text-left">
+						<div>菠萝牛柳饭</div>
+						<p>精选台湾新鲜菠萝+墨西哥牛柳精准而成。</p>
+						<div>￥36.00
+							<div class="numberbox">
+								<p></p>
+								<p>1</p>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="foods mui-text-center">
+					<div class="foods_left">
+						<img src="../imgs/foods_02.png" alt="" />
+						<p class="">顾客B</p>
+					</div>
+					<div class="foods_right mui-text-left">
+						<div>铁板鱿鱼仔</div>
+						<p>精选舟山优质水域新鲜鱿鱼仔烹饪而成。口感Q弹顺滑，营养价 值高，必点精品。</p>
+						<div>￥42.00
+							<div class="numberbox">
+								<p></p>
+								<p>1</p>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="foods mui-text-center">
+					<div class="foods_left">
+						<img src="../imgs/foods_02.png" alt="" />
+						<p class="">顾客B</p>
+					</div>
+					<div class="foods_right mui-text-left">
+						<div>海鲜麻辣香锅</div>
+						<p></p>
+						<div>￥79.00
+							<div class="numberbox">
+								<p></p>
+								<p>1</p>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="special">
+				<div class="always_eat">
+					<span class="eat_in">
+						餐前甜点
+					</span>
+				</div>
+
+			</div>
+			<div class="foods mui-text-center">
+				<div class="foods_left">
+					<img src="../imgs/foods_01.png" alt="" />
+					<p class="">顾客A</p>
+				</div>
+				<div class="foods_right mui-text-left">
+					<div>香草巧克力慕斯</div>
+					<p>精选台湾新鲜菠萝+墨西哥牛柳精准而成。</p>
+					<div>￥16.00
+						<div class="numberbox">
+							<p></p>
+							<p>1</p>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="foods mui-text-center">
+				<div class="foods_left">
+					<img src="../imgs/foods_01.png" alt="" />
+					<p class="">顾客B</p>
+				</div>
+				<div class="foods_right mui-text-left">
+					<div>水果拼盘</div>
+					<p>精选舟山优质水域新鲜鱿鱼仔烹饪而成。口感Q弹顺滑，营养价 值高，必点精品。</p>
+					<div>￥42.00
+						<div class="numberbox">
+							<p></p>
+							<p>1</p>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="other">
+				<div class="mui-text-center">本店顾客常点</div>
+				<div id="slider" class="mui-slider">
+					<div class="mui-slider-group mui-slider-loop">
+						<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+						<div class="mui-slider-item">
+
+							<div class="imgs"><img src="../imgs/other_01.jpg" /><span>龙井虾仁</span></div>
+							<div class="imgs"><img src="../imgs/other_02.jpg" /><span>特色糖醋排骨</span></div>
+							<div class="imgs"><img src="../imgs/other_03.jpg" /><span>西湖牛肉羹</span></div>
+							<div class="imgs"><img src="../imgs/other_04.jpg" /><span>桂花山药</span></div>
+						</div>
+						<!-- 第一张 -->
+						<div class="mui-slider-item active">
+							<div class="imgs"><img src="../imgs/other_01.jpg" /><span>龙井虾仁</span></div>
+							<div class="imgs"><img src="../imgs/other_02.jpg" /><span>特色糖醋排骨</span></div>
+							<div class="imgs"><img src="../imgs/other_03.jpg" /><span>西湖牛肉羹</span></div>
+							<div class="imgs"><img src="../imgs/other_04.jpg" /><span>桂花山药</span></div>
+						</div>
+						<!-- 第二张 -->
+						<div class="mui-slider-item">
+							<div class="imgs"><img src="../imgs/other_01.jpg" /><span>龙井虾仁</span></div>
+							<div class="imgs"><img src="../imgs/other_02.jpg" /><span>特色糖醋排骨</span></div>
+							<div class="imgs"><img src="../imgs/other_03.jpg" /><span>西湖牛肉羹</span></div>
+							<div class="imgs"><img src="../imgs/other_04.jpg" /><span>桂花山药</span></div>
+						</div>
+						<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+						<div class="mui-slider-item">
+							<div class="imgs"><img src="../imgs/other_01.jpg" /><span>龙井虾仁</span></div>
+							<div class="imgs"><img src="../imgs/other_02.jpg" /><span>特色糖醋排骨</span></div>
+							<div class="imgs"><img src="../imgs/other_03.jpg" /><span>西湖牛肉羹</span></div>
+							<div class="imgs"><img src="../imgs/other_04.jpg" /><span>桂花山药</span></div>
+						</div>
+					</div>
+					<div class="mui-slider-indicator">
+						<div class="mui-indicator mui-active"></div>
+						<div class="mui-indicator"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="foot_left">
+				<div class="num">商品数量：<span id="total_num">8</span></div>
+				<div class="total">合计：</div>
+				<div>￥<span id="total_food">384.00</span></div>
+			</div>
+			<div class="foot_right" id="./already.html" onclick="clicked(this.id)">立即下单</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/jq.js"></script>
+		<script type="text/javascript">
+			mui.init()
+
+			$('.numberbox p:nth-child(1)').click(function() {
+				var def = $(this).next().text();
+				if(def < 1) {
+					$(this).next().html('0');
+				} else if(def == 1) {
+					$(this).hide();
+					$(this).next().html('0');
+					$(this).next().hide();
+				} else {
+					$(this).next().html(parseInt(def) - 1);
+				}
+			})
+			$('.numberbox p:nth-child(3)').click(function() {
+				$(this).prev().prev().show();
+				$(this).prev().show();
+				var def = $(this).prev().text();
+				if(def == 0) {
+
+				}
+				$(this).prev().html(parseInt(def) + 1);
+			})
+		</script>
+	</body>
+
+</html>
